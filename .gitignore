@@ -1,3 +1,7 @@
 /.idea/
 /target/
 target/
+
+
+# Protect sensitive configuration files
+src/main/resources/application.properties
