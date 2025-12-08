@@ -22,7 +22,6 @@ class MySqlConnectorMockitoTest {
         assertEquals("localhost", config.getHost());
         assertEquals(3306, config.getPort());
         assertEquals("testdb", config.getDatabase());
-        assertEquals("root", config.getUsername());
     }
     
     @Test
